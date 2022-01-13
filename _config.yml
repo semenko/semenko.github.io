@@ -86,3 +86,5 @@ exclude:
   - todo.txt
   - _temp/index.html
   - _temp/
+
+theme: jekyll-theme-cayman
