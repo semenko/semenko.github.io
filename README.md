@@ -4,9 +4,9 @@ This repo is an amalgamation of a few forks. It's closest to [Leonid Keselman's 
 
 ## Getting Started
 1. Create & clone your own `username.github.io` repository
-2. Run `gem install GitHub-pages` -- this should install Jekyll and all the dependencies needed for GitHub Pages
+2. Run `gem install github-pages` -- this should install Jekyll and all the dependencies needed for GitHub Pages
 3. Run `_make_thumbnails.sh` and `_make_favicon.sh` (note you may need to install `imagemagick`, e.g. `brew install imagemagick`)
-4. In your repo, run `jekyll serve`
+4. In your repo, run `bundle exec jekyll serve --livereload`
 5. When your site looks nice, commit any changes and push your repo.
 
 
