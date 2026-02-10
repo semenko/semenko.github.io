@@ -1,3 +1,33 @@
 ---
 layout: default
 ---
+
+<article>
+  <header class="post-header">
+    <h1 class="post-title">{{ page.title }}</h1>
+    <div class="post-meta">
+      <time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%B %-d, %Y" }}</time>
+      {% assign words = content | number_of_words %}
+      {% assign minutes = words | divided_by: 250 %}
+      {% if minutes < 1 %}{% assign minutes = 1 %}{% endif %}
+      <span class="post-meta-separator">&middot;</span>
+      <span>{{ minutes }} min read</span>
+      {% if page.tags.size > 0 %}
+        <span class="post-meta-separator">&middot;</span>
+        <span class="post-tags">
+          {% for tag in page.tags %}
+            <span class="tag">{{ tag }}</span>
+          {% endfor %}
+        </span>
+      {% endif %}
+    </div>
+  </header>
+
+  <div class="post-content content-narrow">
+    {{ content }}
+  </div>
+
+  <footer class="post-footer">
+    <a href="{{ '/blog' | relative_url }}" class="back-link">&larr; Back to blog</a>
+  </footer>
+</article>
