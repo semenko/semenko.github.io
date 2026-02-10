@@ -1,0 +1,21 @@
+<!--
+(This comical header is inspired by Eric Mill's epic IsItChristmas.com.)
+
+nick.semenkovich.com takes your security very seriously.
+
+The Semenkovich Family domain name "*.semenkovich.com", is hardcoded into modern
+browsers, and shipped in every update of Chrome and Firefox, as part of the HSTS Preload List.
+
+If you notice any security issues, email nick@semenkovich.com right away!
+-->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>{% if page.title %}{{ page.title }} — {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
+<link rel="icon" href="{{ '/favicon.ico' | relative_url }}">
+{% feed_meta %}
+{% seo %}

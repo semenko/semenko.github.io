@@ -1,0 +1,47 @@
+// Navigation
+.site-header {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #E7E5E4;
+}
+
+.nav-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #1C1917;
+  text-decoration: none;
+
+  &:hover {
+    color: #2563EB;
+  }
+}
+
+.site-nav {
+  display: flex;
+  gap: 1.75rem;
+  align-items: center;
+
+  a {
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #57534E;
+
+    &:hover {
+      color: #2563EB;
+    }
+  }
+
+  .nav-external {
+    &::after {
+      content: ' \2192';
+    }
+  }
+}

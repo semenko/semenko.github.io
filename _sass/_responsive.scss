@@ -1,0 +1,62 @@
+// Responsive breakpoints
+@media (max-width: 768px) {
+  .bio {
+    flex-direction: column-reverse;
+    gap: 1.5rem;
+    align-items: center;
+  }
+
+  .bio-text {
+    text-align: center;
+
+    .bio-links {
+      justify-content: center;
+    }
+  }
+
+  .bio-photo img {
+    width: 180px;
+    height: 180px;
+  }
+
+  .post-header .post-title {
+    font-size: 1.65rem;
+  }
+
+  .page-content {
+    padding: 2rem 1.25rem;
+  }
+}
+
+@media (max-width: 480px) {
+  body {
+    font-size: 16px;
+  }
+
+  .nav-container {
+    padding: 0 1rem;
+  }
+
+  .site-nav {
+    gap: 1rem;
+  }
+
+  .bio-photo img {
+    width: 150px;
+    height: 150px;
+  }
+
+  .page-content {
+    padding: 1.5rem 1rem;
+  }
+
+  .post-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.25rem;
+  }
+
+  .post-meta-separator {
+    display: none;
+  }
+}

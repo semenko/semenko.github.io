@@ -1,0 +1,61 @@
+// Individual post styles
+.post-header {
+  margin-bottom: 2rem;
+
+  .post-title {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    line-height: 1.25;
+  }
+}
+
+.post-content {
+  max-width: 680px;
+
+  h2 {
+    margin-top: 2.5rem;
+  }
+
+  h3 {
+    margin-top: 2rem;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    font-size: 0.925rem;
+
+    th, td {
+      padding: 0.6rem 0.75rem;
+      border: 1px solid #E7E5E4;
+      text-align: left;
+    }
+
+    th {
+      background-color: #F5F5F4;
+      font-weight: 600;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #FAFAF9;
+    }
+  }
+
+  img {
+    border-radius: 6px;
+    margin: 1.5rem 0;
+  }
+}
+
+.post-footer {
+  margin-top: 3rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid #E7E5E4;
+
+  .back-link {
+    font-weight: 500;
+    font-size: 0.95rem;
+  }
+}

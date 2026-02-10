@@ -1,0 +1,73 @@
+// Reset & base styles
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  background-color: #FAFAF9;
+  color: #1C1917;
+  line-height: 1.7;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  color: #2563EB;
+  text-decoration: none;
+  transition: color 0.15s ease;
+
+  &:hover,
+  &:focus {
+    color: #1D4ED8;
+  }
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #E7E5E4;
+  margin: 2rem 0;
+}
+
+code {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.875em;
+  background-color: #F5F5F4;
+  padding: 0.15em 0.4em;
+  border-radius: 4px;
+}
+
+pre {
+  background-color: #F5F5F4;
+  border: 1px solid #E7E5E4;
+  border-radius: 6px;
+  padding: 1.25rem;
+  overflow-x: auto;
+  line-height: 1.5;
+
+  code {
+    background: none;
+    padding: 0;
+    border-radius: 0;
+    font-size: 0.85em;
+  }
+}
+
+blockquote {
+  border-left: 3px solid #E7E5E4;
+  padding-left: 1.25rem;
+  color: #57534E;
+  margin: 1.5rem 0;
+  font-style: italic;
+}

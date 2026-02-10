@@ -1,0 +1,193 @@
+// Page structure
+.page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2.5rem 1.5rem;
+}
+
+.content-narrow {
+  max-width: 680px;
+}
+
+// Bio hero (home page)
+.bio {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+}
+
+.bio-text {
+  flex: 1;
+  min-width: 0;
+
+  .bio-name {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  .bio-links {
+    margin-bottom: 1.5rem;
+
+    a {
+      font-weight: 500;
+    }
+
+    .separator {
+      color: #A8A29E;
+      margin: 0 0.25rem;
+    }
+  }
+}
+
+.bio-photo {
+  flex-shrink: 0;
+
+  img {
+    width: 225px;
+    height: 225px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+}
+
+// Blog index
+.blog-index {
+  .page-title {
+    margin-bottom: 2rem;
+  }
+}
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-preview {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #E7E5E4;
+
+  &:first-child {
+    padding-top: 0;
+  }
+
+  &:last-child {
+    border-bottom: none;
+  }
+}
+
+.post-preview-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.35rem;
+
+  a {
+    color: #1C1917;
+
+    &:hover {
+      color: #2563EB;
+    }
+  }
+}
+
+.post-meta {
+  font-size: 0.875rem;
+  color: #57534E;
+  margin-bottom: 0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  align-items: center;
+}
+
+.post-meta-separator {
+  color: #A8A29E;
+}
+
+.post-tags {
+  display: inline-flex;
+  gap: 0.35rem;
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 500;
+  color: #57534E;
+  background-color: #F5F5F4;
+  border: 1px solid #E7E5E4;
+  padding: 0.1rem 0.5rem;
+  border-radius: 9999px;
+}
+
+.post-excerpt {
+  color: #57534E;
+  font-size: 0.95rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0;
+}
+
+.empty-state {
+  color: #A8A29E;
+  font-style: italic;
+  padding: 2rem 0;
+}
+
+// 404
+.page-404 {
+  text-align: center;
+  padding: 4rem 0;
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    color: #57534E;
+    font-size: 1.1rem;
+  }
+}
+
+// Page title (for page.html layout)
+.page-heading {
+  margin-bottom: 2rem;
+}
+
+// Site footer
+.site-footer {
+  border-top: 1px solid #E7E5E4;
+  padding: 2rem 0;
+  margin-top: 3rem;
+}
+
+.footer-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  text-align: center;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  gap: 1.25rem;
+  margin-bottom: 0.75rem;
+  flex-wrap: wrap;
+
+  a {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #57534E;
+
+    &:hover {
+      color: #2563EB;
+    }
+  }
+}
+
+.footer-copy {
+  font-size: 0.8rem;
+  color: #A8A29E;
+}
