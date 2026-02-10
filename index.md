@@ -5,8 +5,6 @@ layout: default
 <div class="bio">
 <div class="bio-text" markdown="1">
 
-<h1 class="bio-name">Nick Semenkovich, MD PhD</h1>
-
 <p class="bio-links">
   <a href="mailto:semenko@alum.mit.edu">Email</a>
   <span class="separator">/</span>
