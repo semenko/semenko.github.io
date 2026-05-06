@@ -25,7 +25,7 @@ I graduated from MIT with degrees in Course 6 (Computer Science) and Course 7 (B
 
 In information security, I'm currently developing a public ranking system for the security of healthcare systems (similar to the US News rankings), and previously wrote much of the modern Chrome version of the EFF's [HTTPS Everywhere](https://www.eff.org/https-everywhere) extension.
 
-If you're bored, you can follow my [main-belt asteroid](https://minorplanetcenter.net/db_search/show_object?object_id=18015) — which looks like it's having a great time just a bit past Mars — or check the status of [this legislation](http://www.senate.mo.gov/17info/BTS_Web/Bill.aspx?SessionType=R&BillID=57095289) I helped draft that would require healthcare workers to receive yearly influenza vaccinations (long before the pandemic made that cool).
+If you're bored, you can follow my [main-belt asteroid](https://minorplanetcenter.net/db_search/show_object?object_id=18015) — which looks like it's having a great time just a bit past Mars — or check the status of [this legislation](https://www.senate.mo.gov/BillTracking/Bills/BillInformation?year=2017&billid=57095289) I helped draft that would require healthcare workers to receive yearly influenza vaccinations (long before the pandemic made that cool).
 
 {% comment %}
 ---
